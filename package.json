@@ -1,6 +1,6 @@
 {
   "name": "smear",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Spread an array parameter to a function",
   "main": "index.js",
   "scripts": {
