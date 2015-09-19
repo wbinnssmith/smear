@@ -1,6 +1,7 @@
 # smear
 
 [![Build Status](https://travis-ci.org/wbinnssmith/smear.svg)](https://travis-ci.org/wbinnssmith/smear)
+
 [![js-semistandard-style](https://cdn.rawgit.com/flet/semistandard/master/badge.svg)](https://github.com/Flet/semistandard)
 
 smears (or spreads) a single array parameter across a function's arguments.
