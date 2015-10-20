@@ -3,6 +3,13 @@
   "version": "1.0.1",
   "description": "Spread an array parameter to a function",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbinnssmith/smear.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wbinnssmith/smear/issues"
+  },
   "scripts": {
     "test": "semistandard && node test.js"
   },

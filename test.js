@@ -53,3 +53,13 @@ test('passes through the context', function (t) {
     t.equal(seven, 7);
   }));
 });
+
+test('returns the value', function (t) {
+  return Promise.resolve([3, 5])
+      .then(smear(function (one, two) {
+        return one * two;
+      }))
+      .then(function (res) {
+        t.equal(res, 15);
+      });
+});
